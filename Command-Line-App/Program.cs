@@ -6,7 +6,8 @@ namespace Command_Line_App
     {
         static void Main(string[] args)
         {
-            string userName = "Len";
+            //Print Statement To Display On Console 
+            string userName = "Len"; 
             string date = DateTime.Today.ToShortDateString();
 
             string str = $"Hello {userName}. Today is {date}.";
