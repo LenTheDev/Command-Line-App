@@ -6,6 +6,7 @@ namespace Command_Line_App
     {
         static void Main(string[] args)
         {
+            // Print Statement To The Console 
             string userName = "Len";
             string date = DateTime.Today.ToShortDateString();
 
