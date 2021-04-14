@@ -11,7 +11,7 @@ namespace Command_Line_App
 
             Console.WriteLine("Enter username:");
 
-            string formatLine = ("-------------------------");
+            string formatLine = ("------------------------");
 
             System.Console.WriteLine(formatLine);
 
