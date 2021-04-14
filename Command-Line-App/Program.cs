@@ -6,14 +6,29 @@ namespace Command_Line_App
     {
         static void Main(string[] args)
         {
+
             // Print Statement To The Console 
-            string userName = "Len";
+
+            Console.WriteLine("Enter username:");
+
+            string formatLine = ("-------------------------");
+
+            System.Console.WriteLine(formatLine);
+
+            string userName = Console.ReadLine();
+
+
             string date = DateTime.Today.ToShortDateString();
+
+            System.Console.WriteLine(formatLine);
 
             string str = $"Hello {userName}. Today is {date}.";
             System.Console.WriteLine(str);
 
-            str = $"{str} How are you today?";
+
+            System.Console.WriteLine(formatLine);
+
+            str = $"How are you today {userName} ?";
             System.Console.WriteLine(str);
         }
     }
